@@ -1,3 +1,4 @@
 baseURL = "https://arlmedia.ca/"
 languageCode = "en-us"
 title = "ARLMedia"
+theme = "basic"
