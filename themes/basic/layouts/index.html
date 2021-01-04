@@ -2,4 +2,8 @@
 
 {{ .Content }}
 
+My most recent project is: {{ range first 1 (where .Site.RegularPages "Type" "in" "projects" ).ByDate.Reverse }}
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ end }}
+
 {{ end }}
