@@ -2,3 +2,6 @@ baseURL = "https://arlmedia.ca/"
 languageCode = "en-us"
 title = "ARLMedia"
 theme = "basic"
+[params]
+author = "Andrew Lloyd"
+description = "My portfolio site"
