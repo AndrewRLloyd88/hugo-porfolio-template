@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "name": "andrew.lloyd01@googlemail.com",
+      "url": "mailto:andrew.lloyd01@googlemail.com"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Andaleeni"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/andrewlloyd01/"
+    }
+  ]
+}
