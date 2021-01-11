@@ -1,14 +1,18 @@
 ---
 title: 'Awesomeco'
 draft: false
+description: 'AwesomeCo'
+
+image: https://via.placeholder.com/640x150
+
+alt_text: 'Awesomeco screenshot'
+
+summary: 'Summary of the Awesomeco project'
+
+Tech_used:
+  - JavaScript
+  - CSS
+  - HTML
 ---
 
-![alt](https://via.placeholder.com/640x150)
-
-Created for National Logisitics Transportation to replace and update former website
-
-### Tech used
-
-- React
-- CSS3
-- Netlify
+Description of the Awesomeco project...

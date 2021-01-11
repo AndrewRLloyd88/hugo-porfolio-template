@@ -5,3 +5,4 @@ theme = "basic"
 [params]
 author = "Andrew Lloyd"
 description = "My portfolio site"
+googleAnalytics = "UA-187046479"
