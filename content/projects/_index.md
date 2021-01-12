@@ -2,6 +2,7 @@
 title: 'Projects'
 draft: false
 description: A list of Andrew's Projects.
+keywords: 'projects'
 
 outputs:
   - HTML

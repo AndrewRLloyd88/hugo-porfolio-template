@@ -16,10 +16,12 @@
   {{ .Site.Params.description }}
   {{- end -}}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <meta name="Keywords" content="{{ .Params.keywords }}">
   {{ template "_internal/google_analytics_async.html" . }}
 
   {{range .AlternativeOutputFormats -}}
-  {{- $link := `<link rel="%s" type="%s" href="%s" title="%s">` -}}
+  {{- $link := `
+  <link rel="%s" type="%s" href="%s" title="%s">` -}}
   {{- $title := printf "%s - %s" $.Page.Title $.Site.Title -}}
   {{- if $.Page.IsHome -}}
   {{ $title = $.Site.Title }}
