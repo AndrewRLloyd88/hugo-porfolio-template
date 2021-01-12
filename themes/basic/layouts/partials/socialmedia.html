@@ -1,0 +1,5 @@
+<ul class="f-contact-info">
+  {{ range .Site.Data.socialmedia.accounts }}
+  <li class="contact-info-single"><a href="{{ .url }}">| {{ .name }} |</a></li>
+  {{ end }}
+</ul>
