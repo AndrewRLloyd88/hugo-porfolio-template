@@ -4,7 +4,7 @@
 
 {{ .Content }}
 
-{{ $url := printf "%s/%s/repos" .Site.Params.gh_url .Site.Params.gh_user}}
+{{ $url := printf "%s/%s/repos%s" .Site.Params.gh_url .Site.Params.gh_user .Site.Params.gh_query}}
 
 {{ $repos := getJSON $url }}
 
