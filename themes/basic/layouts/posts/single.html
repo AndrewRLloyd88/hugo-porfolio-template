@@ -6,7 +6,14 @@
 
     <h2>{{ .Title }}</h2>
     <p>By {{ .Params.Author }} </p>
-    <p>Posted {{ .Date.Format "January 2, 2006" }}</p>
+    <p>Posted {{ .Date.Format "January 2, 2006" }}
+      <span class="tags">
+        in
+        {{ range .Params.tags }}
+        <a class="tag" href="/tags/{{ . | urlize}}">{{ . }}</a>
+        {{ end }}
+      </span>
+    </p>
     <p>Reading Time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.</p>
   </header>
 
