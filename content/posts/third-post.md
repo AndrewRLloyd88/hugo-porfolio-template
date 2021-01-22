@@ -1,10 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Third Post"
+date: 2021-01-21T17:44:25-08:00
 draft: false
 author: Andrew Lloyd
-year: "{{ dateFormat "2006" .Date }}"
-month: "{{ dateFormat "2006/01" .Date }}"
+year: "2021"
+month: "2021/01"
 categories: 
 - Personal
 - Thoughts

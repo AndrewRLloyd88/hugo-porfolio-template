@@ -3,6 +3,8 @@ title: 'First Post'
 date: 2021-01-19T16:49:28-08:00
 draft: false
 author: Andrew Lloyd
+year: '2021'
+month: '2021/01'
 categories:
   - Personal
   - Thoughts

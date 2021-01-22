@@ -2,6 +2,8 @@
 title: 'Second_post'
 date: 2021-01-21T13:38:59-08:00
 draft: false
+year: '2021'
+month: '2021/01'
 author: Andrew Lloyd
 categories:
   - Personal

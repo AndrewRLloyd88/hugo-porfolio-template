@@ -11,4 +11,10 @@ gh_user = "AndrewRLloyd88"
 gh_query = "?sort=created&order=asc"
 pygmentsUseClasses = true
 [taxonomies]
+year = "year"
+month = "month"
 tag = "tags"
+[permalinks]
+posts = "posts/:year/:month/:slug"
+year = "/posts/:slug"
+month = "/posts/:slug"
